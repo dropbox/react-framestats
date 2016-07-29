@@ -1,0 +1,22 @@
+{
+  "name": "framestats",
+  "version": "0.1.0",
+  "description": "Monitor web application frame times",
+  "main": "js/index.js",
+  "typings": "js/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "js/"
+  ],
+  "author": "Chad Austin, Dropbox",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "circular-buffer": "^0.0.6",
+    "react": "^0.14.0"
+  }
+}
