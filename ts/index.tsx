@@ -8,7 +8,7 @@ const DEFAULT_FRAME_COUNT = 5 * 60; // five seconds at 60 Hz
 
 // normally I'd say anything over 17ms is a dropped frame,
 // but browsers have iffy timing.  so assume anything a bit under two
-// frames is a dropped frame.
+// frames is a dropped frame.  assumes 60 Hz is the target.
 const DROPPED_FRAME_THRESHOLD_TIME = 30; // ms
 
 interface RenderReason {
