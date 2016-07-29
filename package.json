@@ -1,5 +1,5 @@
 {
-  "name": "framestats",
+  "name": "react-framestats",
   "version": "0.1.0",
   "description": "Monitor web application frame times",
   "main": "js/index.js",
@@ -11,7 +11,7 @@
   "files": [
     "js/"
   ],
-  "author": "Chad Austin, Dropbox",
+  "author": "Chad Austin, Dropbox Inc.",
   "license": "Apache-2.0",
   "devDependencies": {
     "typescript": "^1.8.10"
