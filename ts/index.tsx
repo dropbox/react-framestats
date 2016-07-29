@@ -90,7 +90,7 @@ ${recent_render_string.replace(/\s+$/g, '')}`;
   }
 }
 
-interface FrameRecorderOptions {
+export interface FrameRecorderOptions {
   frame_count?: number;
   output: FrameStatsOutput;
 }
