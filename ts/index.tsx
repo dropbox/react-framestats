@@ -192,7 +192,7 @@ export class FrameRecorder {
   }
 }
 
-export default class PerfPanel extends React.Component<{}, {}> {
+export class PerfPanel extends React.Component<{}, {}> {
   frame_recorder: FrameRecorder;
 
   constructor() {

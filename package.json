@@ -1,15 +1,18 @@
 {
   "name": "react-framestats",
-  "version": "0.1.0",
-  "description": "Monitor web application frame times",
+  "version": "0.1.1",
+  "description": "Monitor React application frame times",
+  "keywords": ["performance", "react", "frame"],
   "main": "js/index.js",
   "typings": "js/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "update-definitions": "tsc --jsx react -d ts/index.tsx"
+    "prepublish": "npm run build"
   },
   "files": [
-    "js/"
+    "js/",
+    "ts/",
+    "LICENSE.txt"
   ],
   "author": "Chad Austin, Dropbox Inc.",
   "license": "Apache-2.0",
