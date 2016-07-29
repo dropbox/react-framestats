@@ -1,6 +1,6 @@
 {
   "name": "react-framestats",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Monitor React application frame times",
   "keywords": ["performance", "react", "frame"],
   "main": "js/index.js",
@@ -20,7 +20,7 @@
     "circular-buffer": "^0.0.6"
   },
   "peerDependencies": {
-    "react": "^0.14.0"
+    "react": "^15.0.0"
   },
   "devDependencies": {
     "typescript": "^1.8.10"
