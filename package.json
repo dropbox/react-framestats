@@ -1,6 +1,6 @@
 {
   "name": "react-framestats",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Monitor React application frame times",
   "keywords": ["performance", "react", "frame"],
   "main": "js/index.js",
@@ -16,11 +16,13 @@
   ],
   "author": "Chad Austin, Dropbox Inc.",
   "license": "Apache-2.0",
+  "dependencies": {
+    "circular-buffer": "^0.0.6"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0"
+  },
   "devDependencies": {
     "typescript": "^1.8.10"
-  },
-  "dependencies": {
-    "circular-buffer": "^0.0.6",
-    "react": "^0.14.0"
   }
 }
