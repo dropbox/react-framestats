@@ -16,6 +16,8 @@ in your appropriate `shouldComponentUpdate`, the perf panel will display:
 ```
 import {PerfPanel, recordRender} from 'react-framestats';
 
+...
+
 render() {
     return (
         <YourApplication>
